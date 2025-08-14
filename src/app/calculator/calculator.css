@@ -1,0 +1,17 @@
+main{
+  width: 375px;
+  & .logo-container{
+    text-align: center;
+    margin: 40px 0;
+  }
+  & .calc-container{
+    padding: 24px;
+    background-color: var(--White);
+    border-radius: 25px 25px 0 0;
+  }
+  & form{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
